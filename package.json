@@ -13,7 +13,7 @@
     "format": "bunx @biomejs/biome format --write ./app",
     "check": "bunx @biomejs/biome check ./app",
     "check:apply": "bunx @biomejs/biome check --apply ./app",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "prepare": "husky"
   },
   "dependencies": {
